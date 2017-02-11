@@ -18,10 +18,10 @@ function stackLetters() {
 var spaceAlphabet = " ";
 	for( i=0; i<alphabet.length; i += 1) {
 		// var alphabet = alphabet.slice(0, i + 1);
-		spaceAlphabet += alphabet[i];
 		if(i % 3 === 0) {
 			spaceAlphabet += " ";
 		}
+	spaceAlphabet += alphabet[i];
 	console.log(spaceAlphabet);
 	}
 }
